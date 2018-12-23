@@ -1,0 +1,5 @@
+Device,VPN Name,VPN ID,Service Name,Service ID,PGW Home Subscribers Sessions Active Min,PGW Home Subscribers Sessions Active Min Date,PGW Home Subscribers Sessions Active Avg,PGW Home Subscribers Sessions Active Avg As %,PGW Home Subscribers Sessions Active Max,PGW Home Subscribers Sessions Active Max Date,PGW Home Subscribers Sessions Active Total,PGW Home Subscribers Sessions Active Current,PGW Home Subscribers Sessions Active Std Dev,PGW Home Subscribers Sessions Active Variance
+SGLEBEPGW02,pgw_epdg,3,pgw_svc,6,1.0,12/15/2018 18:50:00,1.8194444437821706,100.0,2.0,12/15/2018 17:30:00,109.16666662693024,2.0,0.37743767259033834,0.14245919669041143
+SGLOBEPGW02,pgw_epdg,3,pgw_svc,6,0.0,12/15/2018 17:30:00,0.0,0.0,0.0,12/15/2018 17:30:00,0.0,0.0,0.0,0.0
+
+

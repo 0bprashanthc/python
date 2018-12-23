@@ -1,0 +1,4 @@
+Device,VPN Name,VPN ID,Service Name,Service ID,Attached Users Min,Attached Users Min Date,Attached Users Avg,Attached Users Avg As %,Attached Users Max,Attached Users Max Date,Attached Users Total,Attached Users Current,Attached Users Std Dev,Attached Users Variance
+SGLOBEMME01,s1mme,2,mme_svc,1,1.0,12/15/2018 17:30:00,1.0,100.0,1.0,12/15/2018 17:30:00,59.0,1.0,0.0,0.0
+
+
