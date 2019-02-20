@@ -1,3 +1,8 @@
+#find two elements in the list which when added returns X
+#return the indices of the elements in the list
+#input: [1,2,3,4,5,6,7], X = 8
+#output: (1,7)
+
 def find2sum(lst):
     start,end = 0,len(lst)-1
     while start<end:

@@ -1,3 +1,8 @@
+#Given an array of integers, find the continuous subarray, which when sorted, 
+#results in the entire array being sorted. 
+#For example: A = [0,2,5,3,1,8,6,9], result is the subarray [2,5,3,1,8,6]
+#because, [2,5,3,1,8,6] when sorted => [1,2,3,5,8,6] will result in [0,1,2,3,5,8,6,9]
+
 def shortest_subarray(lst):
     print lst
     i,j = None, None
