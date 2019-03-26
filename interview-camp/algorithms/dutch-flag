@@ -1,0 +1,16 @@
+a = [3,4,5,6,2,3,4,8]
+n = 4
+a = [<n, =n, >n]
+
+reader, low, high = 0, 0, len(a)-1
+while reader <= high:
+  if reader < n:
+      swap reader and a[low]
+      low = low + 1
+      reader = reader + 1
+  if reader = n:
+      reader = reader + 1
+  if reader > n:
+      swap reaer and a[high]
+      high = high - 1
+print a

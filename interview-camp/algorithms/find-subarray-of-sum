@@ -1,0 +1,23 @@
+find contigous subarray that sums to input x
+
+if input x is 0
+    current_sum, hashmap = 0, {}
+    for each_element in array:
+	if current_sum == each_element:
+	  return (0,indexof(each_element)
+	if current_sum-x in hashmap.keys()
+	  return (hashmap.get(current_sum-x),indexof(each_element))
+	hashmap[current_sum] = indexof(each_element)
+    return -1
+if input x is not 0
+   start,end,sum = -1,-1,0
+   while start < len(array)-1:
+     sum < x:
+	sum = sum + a[end]
+	end = end + 1
+     sum > x:
+	sum = sum + a[start]
+	start = start - 1
+     sum == x:
+	return (start+1,end)
+  return -1
