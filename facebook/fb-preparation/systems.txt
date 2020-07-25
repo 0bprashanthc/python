@@ -1,0 +1,68 @@
+1. What is the default signal that is generated when sending a kill command to a process in Linux?
+2. In IPv6 what is the A record equivalent?  
+3. Know Kernel to the CPU interrupt level...
+4. Name three states a process can be in: https://www.tecmint.com/linux-process-management/ 
+5. Given output of command vmstat and analyze the system: https://www.howtoforge.com/linux-vmstat-command/
+6. Send packets to remote machines and try to upgrade the packet remotely. Troubleshooting why some of the machines are not updated.  
+7. How do you make a process a service?  
+8. What part of the tcp header does traceroute modify?  
+9. What is a zombie process?: https://www.tutorialspoint.com/what-is-zombie-process-in-linux 
+10. What happens during the boot process from the moment you turn on the machine until you get a login prompt?: https://www.geeksforgeeks.org/what-happens-when-we-turn-on-computer/
+11. Systems internals, vmstat, netcat, shell scripting  
+12. How would you handle processing large datasets in a constrained environment?  
+13. What happens in Linux when you type ls -l?: https://medium.com/meatandmachines/what-really-happens-when-you-type-ls-l-in-the-shell-a8914950fd73 
+14. Explain containerization?: https://www.linuxjournal.com/content/everything-you-need-know-about-linux-containers-part-i-linux-control-groups-and-process; 
+15. How would you troubleshoot a system in which you are not able to start an application on the server?: https://scoutapm.com/blog/understanding-cpu-steal-time-when-should-you-be-worried
+16. Explain pagination(might be different wordings): http://www.linux-tutorial.info/modules.php?name=MContent&pageid=89
+17. We have a database running unusually slow in production. Why might this be happening?  
+18. What does "$?" mean in bash?: https://www.quora.com/What-is-the-meaning-of-in-bash-scrip 
+19. Questions about SIGTERMS, Unix commands, and networking fundamentals.  
+20. Question about manipulating data from stdin and battleship problem.  
+21. How do you see which disks are currently mounted?https://www.bleepingcomputer.com/tutorials/introduction-to-mounting-filesystems-in-linux/
+22. How can you find whether a process is I/O bound or CPU bound?: https://www.quora.com/How-do-you-know-if-a-web-app-is-IO-bound-or-CPU-bound-For-example-what-are-the-instance-types-of-Amazon-and-Dropbox
+23. Explain everything that happens over the network when a client tries to access a website:http://superuser.com/a/31691
+24. What options do you have, nefarious or otherwise, to stop people on a wireless network you are also on (but have no admin rights to) from hogging bandwidth by streaming videos?  
+25. Some real curveballs about how specific protocols worked. HTTP, SMTP, etc.
+26. Why wouldn't you want a root DNS server to answer queries for you, instead of delegating you to an authoritative server?  
+28. DNS, TCP, CLI tools, system calls, signals, load vs cpu util
+29. What is a filesystem, how does it work? File permissions, properties, file types. A write operation failed with an error, how do you figure out what happened? 
+30. What's a signal and how is it handled by the kernel?
+31. Talk about an iostat output (what does user vs system cpu load mean, what does iowait% mean, cache vs buffers, why do we need caching, how much cache is needed, how can disk performance be improved, where is the bottleneck)
+32. How do TCP, UDP work? Describe what happens when a client opens a web page. How does DNS work? How does HTTP work? How does a router work?
+33. Explain in every single step about what will happen after you type " ls * " in your terminal.  
+34. Suppose there is a server with high CPU load but there is no process with high CPU time. What could be the reason for that? How do you debug this problem? Does your solution always work, and if not, what's the reason for that?  
+35. Port number for HTTP, HTTPS, FTP, DNS  
+36. when you saw many system interrupts, what could be the possible reason in linux  
+37. Given a database with slow I/O, how can we improve it?  
+38. Where is the dns file located?  
+39. What signal do you send a service to end it?  
+40. What is the type of record that resolves urls to ip records?  
+41. Under ps, what are three states that a service can be in?  
+42. Out of the 5-6 states you can find under ps, which two takes up system memory?  
+43. If 0 is STDIN and 1 is STDOUT, what's 2?  
+44. what the "uname" command does: http://www.linfo.org/uname.html
+45. what type of packet terminates a TCP connection: FIN
+46. Describe in detail on the kernel level how signals from terminal user reach processes: https://unix.stackexchange.com/questions/80044/how-signals-work-internally 
+47. What command would be used to check file system consistency?: https://www.cyberciti.biz/faq/linux-unix-check-file-system-consistency/
+48. What command would be used to check for packet loss?: https://serverfault.com/questions/318909/how-passively-monitor-for-tcp-packet-loss-linux
+49. What are the 3 steps in a TCP handshake? SYN-SYN/ACK-ACK, FIN-FIN/ACK-ACK
+50. Tell me something about swap  https://www.linux.com/news/all-about-linux-swap-space/
+51. What is the swap area, regarding memory? (Systems)
+52. Create a protocol similar to memcached (Networking) 
+53. How a network process is termintaed  
+54. Can you kill a zombie processs: https://stackoverflow.com/questions/16944886/how-to-kill-zombie-process
+55. How do you load a Linux kernel: https://www.suse.com/c/loading-linux-kernel-manually-using-grub-sles/
+56. What information is not in the inode ?: https://linoxide.com/linux-command/linux-inode/
+- User ID
+- File's name
+- File ID  
+57. if you had a program that needed 1TB of RAM and you only have 16GB, how does the linux system allocate memory: https://unix.stackexchange.com/questions/117185/what-happens-in-unix-linux-when-a-program-is-bigger-then-size-of-memory
+58. List ways to catch a signal for a program that you don't have source code for.: https://unix.stackexchange.com/questions/85364/how-can-i-check-what-signals-a-process-is-listening-to https://stackoverflow.com/questions/4515274/externally-disabling-signals-for-a-linux-program
+59. How does strace work: https://stackoverflow.com/questions/5494316/how-does-strace-work
+60. Explain in detail, down to the machine language what steps are executed after you type in the Linux command "ps" into the terminal.  
+61. How do you load a module into the linux kernel?  https://www.tecmint.com/load-and-unload-kernel-modules-in-linux/
+62. What is file descriptor 2 (this one had me confused as to what they were talking about - I thought it was about the internals of the file descriptor itself for some reason)  https://stackoverflow.com/questions/5256599/what-are-file-descriptors-explained-in-simple-terms
+63. How do you trace all the function calls in a running process: https://www.tecmint.com/strace-commands-for-troubleshooting-and-debugging-linux/ https://www.systutorials.com/docs/linux/man/1-ftrace/  https://blog.packagecloud.io/eng/2016/03/14/how-does-ltrace-work/
+64. Where is DNS information stored on the system - this one I thought they were talking about bind
+65. What signal is sent to a parent process when the child process terminates?: SIGCHLD
+66. What is the purpose of tcpdum: https://www.tecmint.com/12-tcpdump-commands-a-network-sniffer-tool/
