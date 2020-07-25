@@ -1,0 +1,13 @@
+User:
+ id
+ name
+ phone-number
+ email-address
+ balance-amount
+ create_expense()
+
+Expense:
+ amount
+ owner
+ split type - EQUAL, EXACT, PERCENT
+ split users

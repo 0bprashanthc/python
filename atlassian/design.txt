@@ -1,0 +1,55 @@
+
+
+
+
+product architecture:
+  - managed kubernetes service - 'tanzu'
+    1. multi-tenancy:
+        - n orgs
+          - n tenants
+    2. flexiblity multiple cloud endpoints:
+        1. service must be hosted in multiple clouds
+        2. service must support creating clusters in multiple clouds
+    3. engineering tools
+  - cluster-api project
+
+cell-infrastructure:
+  - product instance is a cell
+    - dns
+    - compute
+    - storage
+    - network
+    - kubernetes
+  - cell azure, gcp, aws and vmware
+    - terraform
+    - hashicorp vault: AuthZ and AuthN
+       - vault backends: 
+       - kubernetes RBAC: 
+      
+        AuthZ:
+           IAM Roles 'Engineer'
+             STS -> access key, secret key
+              Vault-> Admin, Engineering, EngineeringAdmin
+                 aws_auth_backend: admin-Admin, engineer-Engineer
+                 azure_auth_backend: 
+              'engineer' -> vault policies
+              certificate
+         RBAC: role, rolebinding, user subjects
+         kubernetes cluster
+        
+    Vault Cluster:
+         - active/backup
+         - cross-cloud region replication
+      1. secrets
+      2. multi-cloud
+    
+    1. vault tokens issues > 5000 token 
+    2. disk space
+    3. cluster health
+       - leader election
+       - instances CPU, RAM, swap space
+    4. prometheus, alert-manager N-10,000%4000 -> pagerduty, servicedesk, slack and emails
+    and graphana
+    5. logging - request-> vault node -> node processing the requesy -> token 
+        pull based notification system
+
