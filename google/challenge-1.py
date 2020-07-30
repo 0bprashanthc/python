@@ -16,20 +16,39 @@ def longest_substring(s,d):
             largest = each_word
     return largest
 
+def index_hash(s):
+    ih = dict()
+    for index,char in enumerate(s):
+        if char in ih:
+            ih[char].append(index)
+        else:
+            ih[char] = [index]
+    return ih
+
 def is_subsequence(word,s):
     to_continue = True
-    while s != '' and to_continue:
-        for indx,each_char in enumerate(word):
-            if each_char in s:
-                if indx == len(word)-1: to_continue = False
-                index = s.index(each_char)
-                if index != len(s)-1: 
-                    s = s[index+1:]
-                else:
-                    return True
-            else:
+    ih = index_hash(s)
+    x = -1
+    for each_char in word:
+        if each_char in ih:
+            x = search_x(ih[each_char],x)
+            if x == -1:
                 return False
+        else:
+            return False
     return True
+
+def search_x(array, x):
+    low,mid,high = 0,0,len(array)-1
+    while low < high:
+        mid = (low+high)/2
+        if array[mid] < x:
+            low = mid+1
+        elif array[mid] == x:
+            return mid+1
+        elif array[mid] > x:
+            high = mid-1
+    return array[mid]
 
 if __name__ == "__main__":
     s = "abppplee"

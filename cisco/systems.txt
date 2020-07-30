@@ -1,0 +1,26 @@
+
+Give the count of all rows which are greater than some percentage:
+Select count(*) from cepm_interface where kpi > 100
+
+Init levels in LInux
+
+How do you check the last reboot times of the server?
+
+
+File is too large. How do you get a subsection of a file?
+Cat logfile | grep “date” >> logs.txt 
+
+You have a long running program. You need to start it from CLI. how?
+
+Nohup ./traplogs.sh &
+
+You have a program to start to write normal logs to one file and error log to another file.?
+Nohup ./traplogs.sh > output.log 2>&1 &
+
+Write a test program with arguments. How will you access the arguments inside the program?
+./traplogs.sh <location1> <location2>
+@ $
+
+You are running a command. How to know if it ran successfully?
+Cp <location1> <location2>
+
