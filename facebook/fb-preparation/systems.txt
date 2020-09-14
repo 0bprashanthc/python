@@ -2,10 +2,10 @@
 2. In IPv6 what is the A record equivalent?  
 3. Know Kernel to the CPU interrupt level...
 4. Name three states a process can be in: https://www.tecmint.com/linux-process-management/ 
-5. Given output of command vmstat and analyze the system: https://www.howtoforge.com/linux-vmstat-command/
+5. Given output of command vmstat and analyze the system: https://medium.com/@damianmyerscough/vmstat-explained-83b3e87493b3
 6. Send packets to remote machines and try to upgrade the packet remotely. Troubleshooting why some of the machines are not updated.  
 7. How do you make a process a service?  
-8. What part of the tcp header does traceroute modify?  
+8. What part of the tcp header does traceroute modify? https://www.slashroot.in/how-does-traceroute-work-and-examples-using-traceroute-command
 9. What is a zombie process?: https://www.tutorialspoint.com/what-is-zombie-process-in-linux 
 10. What happens during the boot process from the moment you turn on the machine until you get a login prompt?: https://www.geeksforgeeks.org/what-happens-when-we-turn-on-computer/
 11. Systems internals, vmstat, netcat, shell scripting  
@@ -14,13 +14,13 @@
 14. Explain containerization?: https://www.linuxjournal.com/content/everything-you-need-know-about-linux-containers-part-i-linux-control-groups-and-process; 
 15. How would you troubleshoot a system in which you are not able to start an application on the server?: https://scoutapm.com/blog/understanding-cpu-steal-time-when-should-you-be-worried
 16. Explain pagination(might be different wordings): http://www.linux-tutorial.info/modules.php?name=MContent&pageid=89
-17. We have a database running unusually slow in production. Why might this be happening?  
-18. What does "$?" mean in bash?: https://www.quora.com/What-is-the-meaning-of-in-bash-scrip 
+17. We have a database running unusually slow in production. Why might this be happening? https://dzone.com/articles/reasons-slow-database
+18. What does "$?" mean in bash?: https://www.quora.com/What-is-the-meaning-of-in-bash-script
 19. Questions about SIGTERMS, Unix commands, and networking fundamentals.  
 20. Question about manipulating data from stdin and battleship problem.  
-21. How do you see which disks are currently mounted?https://www.bleepingcomputer.com/tutorials/introduction-to-mounting-filesystems-in-linux/
+21. How do you see which disks are currently mounted? https://www.bleepingcomputer.com/tutorials/introduction-to-mounting-filesystems-in-linux/
 22. How can you find whether a process is I/O bound or CPU bound?: https://www.quora.com/How-do-you-know-if-a-web-app-is-IO-bound-or-CPU-bound-For-example-what-are-the-instance-types-of-Amazon-and-Dropbox
-23. Explain everything that happens over the network when a client tries to access a website:http://superuser.com/a/31691
+23. Explain everything that happens over the network when a client tries to access a website: http://superuser.com/a/31691
 24. What options do you have, nefarious or otherwise, to stop people on a wireless network you are also on (but have no admin rights to) from hogging bandwidth by streaming videos?  
 25. Some real curveballs about how specific protocols worked. HTTP, SMTP, etc.
 26. Why wouldn't you want a root DNS server to answer queries for you, instead of delegating you to an authoritative server?  
